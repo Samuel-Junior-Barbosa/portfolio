@@ -1,0 +1,13 @@
+/* Define a paleta de cores das pagina */
+
+:root {
+    --bg-links-hover: gray;
+    --color-font-btn-hover: gray;
+    --color-font-btn: white;
+    --color-btn: #004cff;
+    --color-btn-hover: #294a96; 
+    --bg-div-formacao: #ffffff;
+    --bg-div-galeria: #132347;
+    --bg-pagina: #001e63;
+    --bg-footer: #132347;
+}

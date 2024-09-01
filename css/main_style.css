@@ -1,0 +1,64 @@
+/* Importa todos os componentes para a pagina funcionar adequadamente */
+@import url("menu-links-style.css");
+@import url("paleta-de-cores.css");
+@import url("botao-style.css");
+@import url("footer-style.css");
+
+
+/* Define a familia de fontes da pagina*/
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* Estiliza o corpo do site */
+body {
+    background-color: var(--bg-pagina);
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+/* Primeira seção da pagina, responsavel por resuma da pagina */
+.section1 {
+    padding: 10px 0px;
+    margin: 0px;
+    background-image: url('../imagens/fundo-02.jpg');
+    background-position: 1%;
+    min-height: 65vh;
+}
+
+
+/* Estiliza a div que contem o nome da pagina e um pequeno comentario de resumo sobre a pagina*/
+.textos-iniciais {
+    display: block;
+    position: relative;
+    width: max-content;
+    margin: auto;
+    top: 25vh;
+    transform: translate(0, -50%);
+}
+
+
+/* Estilizando o nome da pagina na primeira seção*/
+#nome-da-pagina {
+    display: block;
+    position: relative;
+    width: max-content;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+/* Estilizando o resumo da pagina da primeira seção, embaixo do nome da pagina*/
+#resumo-da-pagina {
+    display: block;
+    position: relative;
+    color: white;
+    width: 500px;
+    font-size: 1.5rem;
+    left: 15px;
+    text-align: center;
+}

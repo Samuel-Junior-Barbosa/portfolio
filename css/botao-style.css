@@ -1,0 +1,25 @@
+/*
+    CSS dos botões das paginas
+*/
+
+.botao {
+    border: 0px solid transparent;
+    color: var(--color-font-btn);
+    background-color: var(--color-btn);
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+    width: max-content;
+    padding: 1%;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: var(--color-btn-hover);
+    color: var(--color-font-btn-hover);
+}
+
+.botao:hover > a:hover {
+    background-color: var(--color-btn-hover);
+    color: var(--color-font-btn-hover);
+}

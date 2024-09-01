@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="css/portfolio-style.css">
+    <link rel="shortcut icon" href="imagens/favi.ico">
+</head>
+<body>
+    <!-- Nav bar, responsavel por colocar os links de navegação no topo da pagina -->
+    <nav id="nav-abas">
+        <!-- Lista de links para informações do portfolio-->
+        <ul id="lista-links">
+            <li class="botao"> <a href="./index.html"> Sobre     </a> </li>
+            <li class="botao"> <a href="./formacao.html"> Formação Acadêmica </a> </li>
+            <li class="botao"> <a href="./portfolio.html"> Portfólio </a> </li>
+            <li class="botao"> <a href="./contato.html"> Contato   </a> </li>
+        </ul>
+    </nav>
+
+    <!-- Seção responsavel por deixar um breve resumo da pagina-->
+    <section class="section1">
+        <!-- Resumo sobre mim -->
+        <div class="textos-iniciais">
+            <!-- Nome da pagina em destaque -->
+            <h1 id="nome-da-pagina"> Portfólio </p>
+
+            <!-- Breve legenda -->
+            <p id="resumo-da-pagina"> Confira abaixo meus trabalhos </p>
+        </div>
+    </section>
+
+    <!-- Seção onde estará a lista dos projetos-->
+    <section class="section2">
+        <ul class="lista-de-projetos">
+            <!-- Dentro de cada item, estará separado por lados, o lado esquerdo terá a imagem do projeto
+            e o botão para acessar o projeto.
+
+            do lado direito estará um resumo do projeto
+            -->
+
+
+            <!-- Item da lista 1: Primeiro projeto-->
+            <li class="item-lista-projetos" id="item-projeto1"> 
+
+                <div class="item-lado-esquerto">
+                    <div class="thumb-dos-projetos" id="imagem-projeto1" > </div>
+                    <a class="botao botao-items-portfolio" target="_blank" href="https://samuel-junior-barbosa.github.io/Projeto-Cordel"> Conhecer </a>
+                </div>
+
+                <div class="item-lado-direito">
+                    <p>
+                        O Projeto Cordel, foi um projeto que fiz para um curso de HTML e CSS.
+                        Essa pagina contem um tipo de poesia originada no nordeste, o site mostra um exemplo de Poesia de Milton Duarte, sobre o tema do uso da tecnologia.
+                    </p>
+                </div>
+            </li>
+            
+            <!-- Item da lista 2: segundo projeto-->
+            <li class="item-lista-projetos" id="item-projeto2">
+                <div class="item-lado-esquerto">
+                    <div class="thumb-dos-projetos" id="imagem-projeto2" ></div>
+                    <a class="botao botao-items-portfolio" target="_blank" href="https://samuel-junior-barbosa.github.io/Projeto-Android"> Conhecer </a>
+                </div>
+
+                <div class="item-lado-direito">
+                    <p>
+                        O Projeto Android é outro projeto que fiz baseado no mesmo curso de HTML e CSS. Nesse site, é apresentado um artigo sobre a origem do Android em um site ficticio de noticias de tecnologia.
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    <footer>
+        <p> Feito por <a>Samuel Junior Barbosa</a> </p>
+        <a href="https://github.com/Samuel-Junior-Barbosa"> <img src="imagens/github-icon.png"> </a>
+    </footer>
+</body>
+</html>

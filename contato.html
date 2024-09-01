@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+    <link rel="stylesheet" href="css/contato-style.css">
+    <link rel="shortcut icon" href="imagens/favi.ico">
+</head>
+<body>
+
+    <!-- Nav bar, responsavel por colocar os links de navegação no topo da pagina -->
+    <nav id="nav-abas">
+
+        <!-- Lista de links para informações do portfolio-->
+        <ul id="lista-links">
+            <li class="botao"> <a href="./index.html"> Sobre     </a> </li>
+            <li class="botao"> <a href="./formacao.html"> Formação Acadêmica </a> </li>
+            <li class="botao"> <a href="./portfolio.html"> Portfólio </a> </li>
+            <li class="botao"> <a href="./contato.html"> Contato   </a> </li>
+        </ul>
+
+    </nav>
+
+    <!-- Seção responsavel por deixar um breve resumo da pagina-->
+    <section class="section1">
+        <!-- Resumo sobre mim -->
+        <div class="textos-iniciais">
+            <!-- Nome da pagina em destaque -->
+            <h1 id="nome-da-pagina"> Contato </p>
+            <!-- Breve legenda -->
+            <p id="resumo-da-pagina"> Gostaria de conversar comigo? </p>
+        </div>
+    </section>
+
+    <!-- Seção do contato -->
+    <section class="section2">
+        <p> entre em contato por E-mail e retornarei assim que possivel </p>
+
+        <!-- Formulario para contato, no momento, não está funcionando -->
+        <form action="./enviando-mensagem.html" method="GET" class="formulario-contato">
+
+            <label> Nome: </label> <input id="form-nome" name="nome" placeholder="Insira seu Nome">
+            
+            <label> E-Mail: </label> <input id="form-email" name="email" placeholder=" Informe seu E-Mail">
+            
+            <label> Mensagem: </label> <textarea type="text" id="form-mensagem" name="mensagem" rows="5" placeholder=" Digite sua mensagem"></textarea>
+            
+            <button class="botao"> Enviar </button>
+        </form>
+    </section>
+
+    <!-- Rodapé da pagina-->
+    <footer>
+        <p> Feito por <a>Samuel Junior Barbosa</a> </p>
+        <a href="https://github.com/Samuel-Junior-Barbosa"> <img src="imagens/github-icon.png"> </a>
+    </footer>
+</body>
+</html>

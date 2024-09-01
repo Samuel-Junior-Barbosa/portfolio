@@ -1,0 +1,14 @@
+/*
+    CSS do rodapé das pagina
+*/
+
+footer {
+    background-color: var(--bg-footer);
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+footer > p {
+    margin: 0px;
+}

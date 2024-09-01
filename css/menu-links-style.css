@@ -1,0 +1,61 @@
+/* CSS dos botões de links das paginas */
+
+/* Estiliza a nav bar em cima do site*/
+#nav-abas {
+    display: inline-block;
+    position: fixed;
+    background-color: var(--bg-pagina);
+    width: 100%;
+    height: 11vh;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+
+}
+
+/* Estiliza a lista de botões da Nav Bar */
+#lista-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Estiliza cada botão da lista de opções de paginas*/
+#lista-links > li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Remove margens do primeiro botão da lista de botões*/
+#lista-links > li:nth-child(1) {
+    margin: 0px;
+}
+
+/* Transforma as tags "a" em botões com animações */
+#lista-links > li > a {
+    display: block;
+    color: var(--color-font-btn);
+    border-radius: 10px;
+    padding: 1vw;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* Dá animações para os "botões"*/
+#lista-links > li > a:hover {
+    background-color: var(--color-);
+    color: var(--color-font-btn-hover)
+}

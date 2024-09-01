@@ -1,0 +1,83 @@
+/* importa o arquivo de estilização principal */
+@import url("main_style.css");
+
+
+/* Estiliza todas as seções que estará com os topicos e paragrafos sobre mim*/
+.main-sobre > section {
+    color: white;
+    padding: 25px;
+}
+
+/* Define cores diferentes para as seções nas posições impares, para ajudar a leitura*/
+.main-sobre > section:nth-child(odd) {
+    background-color: #16388a;
+}
+
+/* Estiliza os titulos de cada seção do "sobre mim"*/
+.main-sobre > section > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Estiliza cada paragrafo de cada seção do "sobre mim"*/
+.main-sobre > section > p {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Estiliza o botaõ de contato, perto do rodapé*/
+.botao-de-contato {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.textos-iniciais {
+    top: 30vh;
+}
+
+#nome-destaque {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    top: 6vh;
+    left: 20px;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+}
+
+#resumo-sobre-mim {
+    display: block;
+    position: relative;
+    color: white;
+    width: 500px;
+    font-size: 1rem;
+    left: 15px;
+}
+
+
+.botao-portfolio {
+    display: block;
+    margin: auto;
+    padding: 3%;
+    font-size: 1rem;
+}
+
+.portfolio {
+    background-color: #16388a;
+    height: 50%;
+}
+
+.botao-galeria-portfolio {
+    display: block;
+    margin: auto;
+}
+
+
+

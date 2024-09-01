@@ -1,0 +1,44 @@
+@import url("menu-links-style.css");
+@import url("paleta-de-cores.css");
+@import url("botao-style.css");
+@import url("footer-style.css");
+
+
+
+
+body {
+    background-color: #0F172A;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: block;
+    padding: 10px 0px;
+    background-image: url('../imagens/fundo-01-embacado.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+
+#mensagem {
+    
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+
+    transform: translate(-50%, -50%);
+    
+}
+
